@@ -1,2 +1,2 @@
 # ejercicios-graficos-ios
-Ejercicios de gráficos con iOS
+Ejercicios de gráficos y animaciones en iOS
