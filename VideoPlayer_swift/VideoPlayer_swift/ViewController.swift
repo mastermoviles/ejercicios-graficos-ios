@@ -24,7 +24,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-   
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+       super.viewWillTransition(to: size, with: coordinator)
+        coordinator.animate(alongsideTransition: { (context) in
+        }) { (context) in
+            // TODO (b.3) Hacer que el tamaño del reproductor de AVPlayerLayer para que se ajuste al girar la pantalla.
+           
+        }
+    }
 
     @objc func videoPlaybackDidFinish(_ notification: Notification) {
         self.moviePlayer?.removeFromSuperlayer()
