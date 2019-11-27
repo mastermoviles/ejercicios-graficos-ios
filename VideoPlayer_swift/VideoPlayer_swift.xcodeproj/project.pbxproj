@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C7095F2D1DD3E37300BF3B33 /* video.m4v in Resources */ = {isa = PBXBuildFile; fileRef = C7095F2C1DD3E00300BF3B33 /* video.m4v */; };
-		C7238840238DEC30004B6EE6 /* logomaster.png in Resources */ = {isa = PBXBuildFile; fileRef = C723883F238DEC30004B6EE6 /* logomaster.png */; };
 		C7BCD6191DD3DB14005FCE93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BCD6181DD3DB14005FCE93 /* AppDelegate.swift */; };
 		C7BCD61B1DD3DB14005FCE93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BCD61A1DD3DB14005FCE93 /* ViewController.swift */; };
 		C7BCD61E1DD3DB14005FCE93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BCD61C1DD3DB14005FCE93 /* Main.storyboard */; };
@@ -24,7 +23,6 @@
 
 /* Begin PBXFileReference section */
 		C7095F2C1DD3E00300BF3B33 /* video.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.m4v; sourceTree = "<group>"; };
-		C723883F238DEC30004B6EE6 /* logomaster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logomaster.png; path = ../../../../logomaster.png; sourceTree = "<group>"; };
 		C7BCD6151DD3DB14005FCE93 /* VideoPlayer_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayer_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7BCD6181DD3DB14005FCE93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7BCD61A1DD3DB14005FCE93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,7 +75,6 @@
 		C7BCD6171DD3DB14005FCE93 /* VideoPlayer_swift */ = {
 			isa = PBXGroup;
 			children = (
-				C723883F238DEC30004B6EE6 /* logomaster.png */,
 				C7095F2C1DD3E00300BF3B33 /* video.m4v */,
 				C7BCD6181DD3DB14005FCE93 /* AppDelegate.swift */,
 				C7BCD61A1DD3DB14005FCE93 /* ViewController.swift */,
@@ -163,7 +160,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7095F2D1DD3E37300BF3B33 /* video.m4v in Resources */,
-				C7238840238DEC30004B6EE6 /* logomaster.png in Resources */,
 				C7BCD6231DD3DB14005FCE93 /* LaunchScreen.storyboard in Resources */,
 				C7BCD6201DD3DB14005FCE93 /* Assets.xcassets in Resources */,
 				C7BCD61E1DD3DB14005FCE93 /* Main.storyboard in Resources */,
